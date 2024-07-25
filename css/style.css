@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-primary: #5bb1cc;
+  --color-dark-blue: #0e5d80;
+  --color-footer-web: #7edcf9;
+  --color-backGround-mobile: #53b9d9;
+  --color-footer-mobile: #146183;
+  --color-body: #474747;
+  --color-white: #fff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--color-body);
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+}
